@@ -41,25 +41,27 @@ This project demonstrates the fundamental operations of ChromaDB:
 
 2. Add Documents to Collection
 
-``` collection.add(
-        documents=[
-            "Chroma is an open-source embedding database.",
-            "Vector databases are used for semantic search.",
-            "Python is a great language for AI development."
-        ],
-        ids=["doc1", "doc2", "doc3"],
-        metadatas=[{"source": "wiki"}, {"source": "blog"}, {"source": "notes"}]
-    )
+```
+collection.add(
+    documents=[
+        "Chroma is an open-source embedding database.",
+        "Vector databases are used for semantic search.",
+        "Python is a great language for AI development."
+    ],
+    ids=["doc1", "doc2", "doc3"],
+    metadatas=[{"source": "wiki"}, {"source": "blog"}, {"source": "notes"}]
+)
 ```
 
 3. Query the Collection
 
-``` results = collection.query(
-        query_texts=["What is Chroma used for?"],
-        n_results=2
-    )
-    
-    print(results)
+```
+results = collection.query(
+    query_texts=["What is Chroma used for?"],
+    n_results=2
+)
+
+print(results)
 ```
 
 Code Structure
