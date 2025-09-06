@@ -31,17 +31,17 @@ This project demonstrates the fundamental operations of ChromaDB:
 
 1. Initialize Client and Create Collection
 
-    import chromadb
+    `import chromadb`
     
     # Create a ChromaDB client
-    client = chromadb.Client()
+    `client = chromadb.Client()`
     
     # Create a new collection to store documents
-    collection = client.create_collection(name="first_collection")
+    `collection = client.create_collection(name="first_collection")`
 
 2. Add Documents to Collection
 
-    collection.add(
+``` collection.add(
         documents=[
             "Chroma is an open-source embedding database.",
             "Vector databases are used for semantic search.",
@@ -50,15 +50,17 @@ This project demonstrates the fundamental operations of ChromaDB:
         ids=["doc1", "doc2", "doc3"],
         metadatas=[{"source": "wiki"}, {"source": "blog"}, {"source": "notes"}]
     )
+```
 
 3. Query the Collection
 
-    results = collection.query(
+``` results = collection.query(
         query_texts=["What is Chroma used for?"],
         n_results=2
     )
     
     print(results)
+```
 
 Code Structure
 --------------
