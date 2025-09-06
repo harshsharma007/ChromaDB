@@ -93,12 +93,14 @@ Expected Output
 ---------------
 
 When you run the query, you'll see results similar to:
+```
 {
     'ids': [['doc1', 'doc2']], 
     'distances': [[0.123, 0.456]], 
     'documents': [['Chroma is an open-source embedding database.', 'Vector databases are used for semantic search.']], 
     'metadatas': [[{'source': 'wiki'}, {'source': 'blog'}]]
 }
+```
 
 Next Steps
 ----------
