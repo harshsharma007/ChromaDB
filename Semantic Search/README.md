@@ -15,14 +15,14 @@ ChromaDB is a vector database designed for storing and querying embeddings. It's
 Prerequisites
 -------------
 
-• Python 3.7 or higher
-• Basic understanding of Python programming
+- Python 3.7 or higher
+- Basic understanding of Python programming
 
 Installation
 ------------
 
 Install ChromaDB using pip:
-    pip install chromadb
+    - pip install chromadb
 
 Basic Usage
 -----------
@@ -64,20 +64,20 @@ Code Structure
 --------------
 
 The main script includes:
-• Client initialization: Sets up the ChromaDB client
-• Collection creation: Creates a named collection to store documents
-• Document insertion: Adds documents with IDs and metadata
-• Semantic querying: Searches for relevant documents using natural language
+- Client initialization: Sets up the ChromaDB client
+- Collection creation: Creates a named collection to store documents
+- Document insertion: Adds documents with IDs and metadata
+- Semantic querying: Searches for relevant documents using natural language
 
 Key Concepts
 ------------
 
 Collections:
 Collections in ChromaDB are containers for your documents and their embeddings. Each collection can store:
-• Documents (text content)
-• Embeddings (vector representations)
-• Metadata (additional information about documents)
-• IDs (unique identifiers for each document)
+- Documents (text content)
+- Embeddings (vector representations)
+- Metadata (additional information about documents)
+- IDs (unique identifiers for each document)
 
 Embeddings:
 ChromaDB automatically generates embeddings for your documents using default embedding models. These vector representations enable semantic search capabilities.
@@ -100,18 +100,18 @@ Next Steps
 ----------
 
 To expand your ChromaDB knowledge, consider exploring:
-• Custom embedding models
-• Persistent storage
-• Advanced querying with filters
-• Batch operations
-• Integration with other AI frameworks
+- Custom embedding models
+- Persistent storage
+- Advanced querying with filters
+- Batch operations
+- Integration with other AI frameworks
 
 Resources
 ---------
 
-• ChromaDB Official Documentation: https://docs.trychroma.com/
-• ChromaDB GitHub Repository: https://github.com/chroma-core/chroma
-• Vector Database Concepts: https://www.pinecone.io/learn/vector-database/
+- ChromaDB Official Documentation: https://docs.trychroma.com/
+- ChromaDB GitHub Repository: https://github.com/chroma-core/chroma
+- Vector Database Concepts: https://www.pinecone.io/learn/vector-database/
 
 Contributing
 ------------
